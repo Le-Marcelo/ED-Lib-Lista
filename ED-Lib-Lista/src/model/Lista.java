@@ -39,7 +39,7 @@ public class Lista<Tipo> {
 		int tamanho = size();
 		
 		if(posicao < 0 || posicao > tamanho - 1) {
-			throw new Exception("Posição Inválida");
+			throw new Exception("Posiï¿½ï¿½o Invï¿½lida");
 			
 		}
 		
@@ -68,7 +68,7 @@ public class Lista<Tipo> {
 		int tamanho = size();
 		
 		if(isEmpty()) {
-			throw new Exception("Lista Vazia");
+			addFirst(valor);
 			
 		}
 		
@@ -83,7 +83,7 @@ public class Lista<Tipo> {
 		int tamanho = size();
 		
 		if(posicao < 0 || posicao > tamanho) {
-			throw new Exception("Posição Inválida");
+			throw new Exception("Posiï¿½ï¿½o Invï¿½lida");
 			
 		}
 		
@@ -134,7 +134,7 @@ public class Lista<Tipo> {
 		int tamanho = size();
 		
 		if(posicao < 0 || posicao > tamanho - 1) {
-			throw new Exception("Posição Inválida");
+			throw new Exception("Posiï¿½ï¿½o Invï¿½lida");
 			
 		}
 		
@@ -166,7 +166,7 @@ public class Lista<Tipo> {
 		int tamanho = size();
 		
 		if(posicao < 0 || posicao > tamanho - 1) {
-			throw new Exception("Posição Inválida");
+			throw new Exception("Posiï¿½ï¿½o Invï¿½lida");
 			
 		}
 		
