@@ -70,13 +70,14 @@ public class Lista<Tipo> {
 		if(isEmpty()) {
 			addFirst(valor);
 			
-		}
+		}else {
+			No<Tipo> elemento = new No<>();
+			elemento.dado = valor;
+			elemento.proximo = null;
+			No<Tipo> ultimo = getNo(tamanho - 1);
+			ultimo.proximo = elemento;
 		
-		No<Tipo> elemento = new No<>();
-		elemento.dado = valor;
-		elemento.proximo = null;
-		No<Tipo> ultimo = getNo(tamanho - 1);
-		ultimo.proximo = elemento;
+		}
 	}
 	
 	public void add(Tipo valor, int posicao) throws Exception{
